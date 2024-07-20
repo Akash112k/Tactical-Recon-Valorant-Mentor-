@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['A_Door', 'A_Heaven_Box', 'A_Heaven_Wall', 'A_Hell', 'A_Site_Box', 'B_Boathouse', 'B_Cubby', 'B_Garage_Left', 'B_Garage_Right', 'B_Main_Corner', 'B_Main_Wallbang', 'B_Site_Box', 'Lion_Corner', 'Mid_Wall', 'Throwables', 'Wine']
+
+roboflow:
+  workspace: mlproject-spring-2024
+  project: valorant-trainer
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mlproject-spring-2024/valorant-trainer/dataset/2
